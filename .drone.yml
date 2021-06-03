@@ -22,7 +22,7 @@ pipeline:
 
   ci-checks:
     group: ci1
-    image: nixos/nix:2.3.4
+    image: koalaman/shellcheck:v0.7.2
     commands:
       - ./ci-checks.sh
 
